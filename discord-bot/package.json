@@ -1,0 +1,29 @@
+{
+  "name": "@workspace/discord-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "deploy": "tsx src/deploy-commands.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "@discordjs/voice": "^0.18.0",
+    "@distube/ytdl-core": "^4.16.12",
+    "@noble/ciphers": "^2.2.0",
+    "discord.js": "^14.18.0",
+    "ffmpeg-static": "^5.2.0",
+    "lavalink-client": "^2.10.2",
+    "opusscript": "^0.1.1",
+    "play-dl": "^1.9.7",
+    "tweetnacl": "^1.0.3",
+    "youtubei.js": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/ffmpeg-static": "^3.0.3",
+    "@types/node": "^20.0.0",
+    "tsx": "catalog:",
+    "typescript": "~5.9.3"
+  }
+}
